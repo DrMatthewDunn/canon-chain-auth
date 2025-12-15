@@ -1,0 +1,16 @@
+# ------------------------------------------------------------------------------
+# DOOR GUARD CONFIGURATION
+# This worker validates tokens before doing work.
+# ------------------------------------------------------------------------------
+
+name = "canon-chain-beacon"
+main = "src/worker-guard.js"
+compatibility_date = "2024-06-01"
+
+# ------------------------------------------------------------------------------
+# ⚠️ SECRETS (DO NOT COMMIT)
+# Run the following commands to set these:
+#
+# 1. The Shared Encryption Key (Must be same as the Maker!)
+#    npx wrangler secret put TICKET_SECRET
+# ------------------------------------------------------------------------------

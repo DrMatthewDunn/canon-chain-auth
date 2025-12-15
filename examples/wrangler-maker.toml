@@ -1,0 +1,24 @@
+# ------------------------------------------------------------------------------
+# KEY MAKER CONFIGURATION
+# This worker issues the tokens.
+# ------------------------------------------------------------------------------
+
+name = "canon-chain-maker"
+main = "src/worker-maker.js"
+compatibility_date = "2024-06-01"
+
+# Standard non-secret environment variables
+[vars]
+# You might want to allow CORS for your frontend here
+ALLOWED_ORIGIN = "https://www.yoursite.com"
+
+# ------------------------------------------------------------------------------
+# ⚠️ SECRETS (DO NOT COMMIT)
+# Run the following commands to set these:
+#
+# 1. The Shared Encryption Key (Must be same on all workers)
+#    npx wrangler secret put TICKET_SECRET
+#
+# 2. Cloudflare Turnstile Secret (Only needed for this worker)
+#    npx wrangler secret put TURNSTILE_SECRET_KEY
+# ------------------------------------------------------------------------------
