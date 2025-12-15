@@ -1,10 +1,3 @@
-Here is a complete, professional-grade `README.md` for your repo. I’ve structured it to be impressive immediately upon landing on the page, explaining the "Why" before the "How."
-
-You can copy-paste the block below directly into your `README.md` file.
-
------
-
-````markdown
 # 🔗 Canon Chain Protocol
 
 **Stateless, self-healing, cryptographically chained authentication for the Edge.**
@@ -200,5 +193,4 @@ This protocol relies on **Symmetric Encryption (AES-GCM)**.
 
 MIT © 2025
 
-```
 ```
